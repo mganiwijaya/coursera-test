@@ -3,8 +3,43 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hello Coursera </title>
+	<style>
+	.wrapper{
+		margin: 0 auto;
+		width: 1000px;
+	}
+	.videowrapper{
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 25px;
+		height: 0px;
+	}
+	 div > h3{
+		font-size: 25px;
+		color: blue;
+	}
+	.textsize{
+		font-size: 30px;
+	}
+	div > p:hover{
+		background-color: greenyellow;
+	}
+
+	</style>
 </head>
 <body>
-<h1>Hello Coursera! Welcome to my webpage </h1>
-<h2>My name is Muhamad Gani Wijaya, my student ID is 192910701123 </h2>
+	<!--try using class selector-->
+	<div class="wrapper">
+		<h1>Hello Coursera! Welcome to my webpage </h1>
+		<h2>My name is Muhamad Gani Wijaya, my student ID is 192910701123 </h2>
+		<h3>Exercising html codes after watching coursera lecture</h3>
+			<!--embedding a video to my web page-->
+			<div class="videowrapper">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/UwVNkfCov1k?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<!--embedding an image to web page-->
+			<p class="textsize">This is a picture of a panda</p>
+			<img src="https://asset.kompas.com/crops/9FUKnsjr23_uaU_FHOo1r3xNfaY=/0x0:1200x800/750x500/data/photo/2020/09/29/5f72af2cd0f6a.jpeg" width="560" height="315">
+	</div>
+</body>
 </html>
